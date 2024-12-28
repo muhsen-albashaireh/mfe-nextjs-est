@@ -1,0 +1,10 @@
+.nx
+.vscode
+dist
+node_modules
+.editorconfig
+.gitignore
+.prettierignore
+.prettierrc
+**/eslint.config.cjs
+README.md

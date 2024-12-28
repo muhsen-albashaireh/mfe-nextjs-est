@@ -1,0 +1,14 @@
+singleQuote: true
+printWidth: 90
+tabWidth: 2
+plugins:
+  - '@trivago/prettier-plugin-sort-imports'
+  - 'prettier-plugin-tailwindcss'
+importOrderSeparation: true
+importOrderSortSpecifiers: true
+importOrder:
+  - <THIRD_PARTY_MODULES>
+  - ^(@module-federation|~.*\.scss$)
+  - ^.*(?!module)\.scss$
+  - ^~.*$
+  - ^\.
